@@ -1,5 +1,12 @@
 const linksPanel = document.querySelector('.links-panel')
 
+window.addEventListener('load', () => {
+    document.querySelector('.loadingScreen').style.opacity = '0'
+    setTimeout(() => {
+        document.querySelector('.loadingScreen').style.display = 'none'
+    }, 600);
+})
+
 const links = [
     {image: 'assests/icons/instagram.png', title: 'Instagram', href: "https://www.instagram.com/arnavbuilds/"},
     {image: 'assests/icons/discord.png', title: 'Discord', href: 'https://discord.gg/BGgkrfkh'},
