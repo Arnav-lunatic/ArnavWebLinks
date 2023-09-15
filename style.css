@@ -5,13 +5,10 @@
 }
 
 body {
-    object-fit: fit;
-    background-size: cover;
     font-family: Roboto;
     position: relative;
     color: #fff;
     background-color: black;
-    overflow-x: hidden;
 }
 
 .bg {
@@ -20,7 +17,8 @@ body {
     left: 0;
     opacity: .5;
     height: 100%;
-    object-fit: fill;
+    width: 100vw;
+    object-fit: cover;
     z-index: -1;
 }
 
@@ -37,7 +35,6 @@ body {
     margin-top: 20px;
     width: 90vw;
     padding: 10px;
-    overflow: hidden;
 }
 
 .container::after {
@@ -171,9 +168,5 @@ body {
 
     .intro {
         justify-content: space-evenly;
-    }
-
-    .bg {
-        width: 100%;
     }
 }
