@@ -9,6 +9,7 @@ window.addEventListener('load', () => {
 
 const links = [
     {image: 'assests/icons/codepen.png', title: 'Codepen', href: "https://codepen.io/arnav-lunatic"},
+    {image: 'assests/icons/github.png', title: 'Github', href: "https://github.com/Arnav-lunatic"},
     {image: 'assests/icons/instagram.png', title: 'Instagram', href: "https://www.instagram.com/arnavbuilds/"},
     {image: 'assests/icons/discord.png', title: 'Discord', href: 'https://discord.gg/BGgkrfkh'},
     {image: 'assests/icons/reddit.png', title: 'Reddit', href: 'https://www.reddit.com/user/OpenUserArnav'},
