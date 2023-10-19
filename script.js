@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
 })
 
 const links = [
-    {image: 'assests/icons/twitter.png', title: 'twitter', href: "https://twitter.com/lunaArnav"},
+    {image: 'assests/icons/twitter.png', title: 'Twitter', href: "https://twitter.com/lunaArnav"},
     {image: 'assests/icons/codepen.png', title: 'Codepen', href: "https://codepen.io/arnav-lunatic"},
     {image: 'assests/icons/github.png', title: 'Github', href: "https://github.com/Arnav-lunatic"},
     {image: 'assests/icons/instagram.png', title: 'Instagram', href: "https://www.instagram.com/arnavbuilds/"},
